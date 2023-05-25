@@ -31,7 +31,6 @@
     "apollo-server-express": "^3.10.3",
     "dotenv": "^16.0.3",
     "graphql": "^16.6.0",
-    "mysql": "^2.18.1",
     "mysql2": "^2.3.3",
     "reflect-metadata": "^0.1.13",
     "rimraf": "^3.0.2",
