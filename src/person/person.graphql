@@ -1,0 +1,23 @@
+type Person {
+  id: Int
+  name: String!
+  age: Int!
+  address: String!
+  email: String!
+}
+
+type Query {
+  getPerson(id: Int!): Person!
+  getPersons: [Person!]!
+}
+
+type Mutation {
+  createPerson(data: createPersonInput!): Person!
+}
+
+input createPersonInput {
+  name: String!
+  age: Float!
+  address: String!
+  email: String!
+}
